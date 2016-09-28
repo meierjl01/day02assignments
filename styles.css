@@ -21,7 +21,6 @@ img {
   display: inline-block;
   float: left;
   font-size: x-small;
-  width: 20px;
 }
 
 /*Christopher helped me with the .image-caption a coding*/
@@ -34,7 +33,6 @@ img {
   padding: 0%;
   max-width: 100%;
   font-size: x-small;
-  margin-left: 50%;
   float: right;
   image-caption: auto;
 }
@@ -43,10 +41,12 @@ img {
   list-style: none;
   float: right;
   padding: 0%;
-  display: inline-block;
-  width: 20%;
-  list style-type: none;
+  display: inline;
       }
+
+.authors img {
+  width: 1em;
+}
 
 /*Christopher helped me with the .image-number::before coding*/
 .image-number::before {
