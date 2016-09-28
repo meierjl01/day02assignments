@@ -1,4 +1,55 @@
 .octocat {
+    width: 30%;
+    display: inline-block;
+    border: solid 1px #D3D3D3;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+
+.image-footer {
+  display: block;
+  padding-bottom: 14px;
+  border-bottom: solid 1px #D3D3D3;
+
+}
+
+.image-number {
+  display: inline-block;
+  float: left;
+  font-size: x-small;
+  width: 20px;
+}
+
+/*Christopher helped me with the .image-caption a coding*/
+.image-caption a {
+  color: black;
+  font-weight: bold;
+}
+
+.image-caption {
+  padding: 0%;
+  max-width: 100%;
+  font-size: x-small;
+  margin-left: 50%;
   float: right;
-  width: 25%;
+  image-caption: auto;
+}
+
+.authors  {
+  list-style: none;
+  float: right;
+  padding: 0%;
+  display: inline-block;
+  width: 20%;
+  list style-type: none;
+      }
+
+/*Christopher helped me with the .image-number::before coding*/
+.image-number::before {
+  content: "#";
+  color: #777777;
 }
